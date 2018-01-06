@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Colmar Academy</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Niconne" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+<body>
+
+<!--I'm having trouble with resizing images/video correctly. You will see some of the
+images and video not properly aligned/positioned, especially in the mobile version. I don't know
+how to fix at this point. Also, any additional resources to help me better understand div stratetgy would
+be super useful and greatly appreciated!-->
+
+    <!--Header -->
+
+  <header class="desktop">
+    <div class="logo" role="presentation">
+      <img src="resources/images/ic-logo.svg" alt="company logo">
+        <span class="colmar">Colmar</span>
+        <span class="academy">Academy</span>
+    </div>
+    <nav>
+      <ul role="presentation">
+        <li><a href="index.html" aria-label="online classes">Online</a></li>
+        <li><a href="index.html" aria-label="campus classes">On Campus</a></li>
+        <li><a href="index.html" aria-label="information for companies">For Companies</a></li>
+        <li><a href="index.html" aria-label="sign in to courses">Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!--Mobile Header-->
+  <div class="mobile-header">
+    <img src="resources/images/ic-logo.svg" alt="company logo">
+    <img src="resources/images/ic-online.svg" alt="online icon">
+    <img src="resources/images/ic-on-campus.svg" alt="campus icon">
+    <img src="resources/images/ic-login.svg" alt="login icon">
+  </div>
+
+
+
+<!-- Banner -->
+
+  <div class="banner">
+    <div class="banner-image">
+      <img src="resources/images/banner.jpg" alt="students reading books while sitting at a table">
+    </div>
+    <div class="banner-text">
+      <div class="learn">Learn Something <br>New Everyday</div>
+      <div class="lorem">Lorem ipsum dolor sit amet,<br>
+        consectetur adipiscing elit.
+      </div>
+      <div class="start">Start Here</div>
+    </div>
+  </div>
+
+<!-- Content 1 -->
+  <div class="flex-container1" role="presentation">
+  <!-- Row 1 -->
+    <div class="row1">
+      <div class="row1-image">
+        <img src="resources/images/information-main.jpg" alt="man reading a book">
+      </div>
+      <div class="row1-header">
+        <h1>It doesn't hurt to keep practicing.</h1>
+      </div>
+      <div class="row1-text">
+        <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus<br>, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam<br>
+        eget magna laoreet, efficitur dolor consequat, tristique ligula."
+        </p>
+      </div>
+      <div class="hiring">Emanuel, Sr. Strategist at Hiring.command</div>
+    </div>
+
+  <!-- Row 2 -->
+  <div class="row2">
+    <div class="row2-orientation">
+      <img src="resources/images/information-orientation.jpg" class="mobile" alt="ariel view of students walking">
+      <div class="row2-sub1-text"><h2>Orientation date</h2>
+        <p>Tues 10/11 & Wed 10/12: 8am-3pm</p>
+        <a href="index.html">Read more</a>
+      </div>
+    </div>
+    <div class="row2-campus">
+      <img src="resources/images/information-campus.jpg" class="mobile" alt="view of campus room">
+      <div class="row2-sub1-text"><h2>Our Campus</h2>
+        <p>Find which campus is close by you</p>
+        <a href="index.html">Read more</a>
+      </div>
+    </div>
+    <div class="row2-lecture">
+      <img src="resources/images/information-guest-lecture.jpg" class="mobile" alt="photo of Oliver Sack">
+      <div class="row2-sub1-text"><h2>Our guest lecture</h2>
+        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+        <a href="index.html">Read more</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Course Section-->
+  <div class="course-container">
+    <div class="start-learning">
+      <h1>Start Learning</h1>
+    </div>
+    <div class="course-flex">
+      <div class="box1">
+        <img src="resources/images/course-software.jpg" alt="two computer screens">
+      <div class="course-text">
+        <h1>Software engineering</h1>
+        <h4>COURSES</h4>
+        <p>Web Development, Mobile Development, iOT, APIs</p>
+      </div>
+    </div>
+
+  <div class="box2">
+    <img src="resources/images/course-computer-art.jpg" alt="hand navigating a smartphone">
+    <div class="course-text">
+      <h1>Computer art</h1>
+      <h4>COURSES</h4>
+      <p>Imaging & Design, Web Design,<br> Motion Graphics & Visual Effects, Computer Animation</p>
+    </div>
+  </div>
+
+  <div class="box3">
+    <img src="resources/images/course-design.jpg" alt="person using a vintage camera">
+    <div class="course-text">
+      <h1>Design</h1>
+      <h4>COURSES</h4>
+      <p>User Experience Design, User Research, Visual Design</p>
+    </div>
+  </div>
+
+  <div class="box4">
+    <img src="resources/images/course-data.jpg" alt="open laptop">
+    <div class="course-text">
+      <h1>Data</h1>
+      <h4>COURSES</h4>
+      <p>Data Science, Big Data, SQL, Data Visualization</p>
+    </div>
+  </div>
+
+  <div class="box5">
+    <img src="resources/images/course-business.jpg" alt="chess pieces">
+    <div class="course-text">
+      <h1>Business</h1>
+      <h4>COURSES</h4>
+      <p>Product Development, Business Development, Startup</p>
+    </div>
+  </div>
+  <div class="box6">
+    <img src="resources/images/course-marketing.jpg" alt="personal navigating a smart watch">
+    <div class="course-text">
+      <h1>Marketing</h1>
+      <h4>COURSES</h4>
+      <p>Analytics, Content Marketing, Mobile Marketing</p>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- Thesis section-->
+  <div class="flex-container1">
+    <!-- Row 1 -->
+    <div class="row1">
+      <div class="row1-video">
+        <video width="100%" height="auto" autoplay="" loop="">
+                      <source src="resources/videos/thesis.mp4" type="video/mp4" alt="timelapse of a building">
+                    </video>
+        </div>
+        <div class="row1-header">
+          <h1>Reimagine urban</h1>
+        </div>
+        <div class="row1-text">
+          <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus<br>, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam<br>
+            eget magna laoreet, efficitur dolor consequat, tristique ligula."
+          </p>
+        </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row2-thesis">
+      <div class="row2-orientation">
+
+        <img src="resources/images/thesis-fisma.jpg" alt="hand drawing">
+
+        <div class="row2-sub1-text"><h2>Fisma: Design and Prototype</h2>
+        <p>Designer showcase of new prototype product</p>
+
+        </div>
+      </div>
+      <div class="row2-campus">
+
+        <img src="resources/images/thesis-now-and-then.jpg" alt="empire state building">
+
+        <div class="row2-sub1-text"><h2>Now and then</h2>
+        <p>Research study about New York</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="copyright">
+      <h4>&copy; 2016 Colmar Academy. All rights reserved.
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-envelope"></i>
+    </div>
+
+    <div class="footer-links">
+      <span class="terms">
+        <a href="index.html">Terms</a>
+      </span>
+      <span class="privacy">
+        <a href="index.html">Privacy</a>
+      </span>
+
+
+    </div>
+  </footer>
+  </body>
+</html>
